@@ -3,3 +3,4 @@
 
 # Except the following
 !entrypoint.sh
+!GitReleaseManager.yaml
