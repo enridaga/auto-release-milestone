@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1
+FROM mcr.microsoft.com/dotnet/sdk:7.0
 
 LABEL "com.github.actions.name"="Auto Release Milestone"
 LABEL "com.github.actions.description"="Drafts a GitHub release based on a newly closed milestone."
@@ -14,5 +14,6 @@ ENV PATH /root/.dotnet/tools:$PATH
 ENV DOTNET_CLI_TELEMETRY_OPTOUT 1
 
 COPY entrypoint.sh /
+RUN ls
 COPY GitReleaseManager.yaml /
 ENTRYPOINT [ "/entrypoint.sh" ]
