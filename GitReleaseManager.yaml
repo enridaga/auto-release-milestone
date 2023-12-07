@@ -71,4 +71,5 @@ issue-labels-include:
     - Security
 issue-labels-exclude:
     - Wontfix
+    - Management
 issue-labels-alias: []
