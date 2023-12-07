@@ -5,7 +5,7 @@ LABEL "com.github.actions.description"="Drafts a GitHub release based on a newly
 
 LABEL version="0.1.0"
 LABEL repository="https://github.com/enridaga/auto-release-milestone"
-LABEL maintainer="Enrico Campidoglio"
+LABEL maintainer="Enrico Daga (forked from Enrico Campidoglio)"
 
 RUN apt-get update && apt-get install -y jq
 RUN dotnet tool install -g GitReleaseManager.Tool
