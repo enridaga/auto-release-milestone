@@ -14,4 +14,5 @@ ENV PATH /root/.dotnet/tools:$PATH
 ENV DOTNET_CLI_TELEMETRY_OPTOUT 1
 
 COPY entrypoint.sh /
+COPY GitReleaseManager.yaml /
 ENTRYPOINT [ "/entrypoint.sh" ]
