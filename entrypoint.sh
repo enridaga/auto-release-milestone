@@ -1,12 +1,6 @@
 #!/bin/bash
 set -u
 
-echo "XXXXXXXXXXXXXXX begin XXXXXXXXXXXXXXXXXXXXXXX"
-ls .
-pwd
-
-echo "XXXXXXXXXXXXXXX end XXXXXXXXXXXXXXXXXXXXXXX"
-
 repo_token=$1
 
 if [ "$GITHUB_EVENT_NAME" != "milestone" ]; then
