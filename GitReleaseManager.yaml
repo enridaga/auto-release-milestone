@@ -76,6 +76,4 @@ issue-labels-include:
 issue-labels-exclude:
     - Wontfix
     - Management
-    - java
-    - python
 issue-labels-alias: []
