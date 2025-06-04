@@ -58,6 +58,9 @@ labels:
     - name: Security
       description: Security issues
       color: A2800F
+    - name: dependencies
+      description: Dependency management
+      color: A2800F
 issue-labels-include:
     - Breaking Change
     - Bug
@@ -69,7 +72,10 @@ issue-labels-include:
     - Question
     - Management
     - Security
+    - dependencies
 issue-labels-exclude:
     - Wontfix
     - Management
+    - java
+    - python
 issue-labels-alias: []
