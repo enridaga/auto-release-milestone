@@ -2,7 +2,9 @@
 set -u
 
 echo "XXXXXXXXXXXXXXX begin XXXXXXXXXXXXXXXXXXXXXXX"
-ls
+ls .
+pwd
+
 echo "XXXXXXXXXXXXXXX end XXXXXXXXXXXXXXXXXXXXXXX"
 
 repo_token=$1
