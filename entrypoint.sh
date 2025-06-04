@@ -1,6 +1,8 @@
 #!/bin/bash
 set -u
 
+echo "XXXXXXXXXXXXXXX Running XXXXXXXXXXXXXXXXXXXXXXX"
+
 repo_token=$1
 
 if [ "$GITHUB_EVENT_NAME" != "milestone" ]; then
